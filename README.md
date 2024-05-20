@@ -11,22 +11,26 @@ This project translates a dataset from English to Bhojpuri using the deep_transl
 ## Installation
 Install the required libraries using pip
 
-'''bash
+```bash
+
 pip install pandas 
 pip install deep-translator 
 pip install tqdm
-'''
+
+```
 
 ## Usage
 Setup Paths: Specify the input and output CSV file paths in the script.
 
-'''bash
+```bash
+
 #Path to the input CSV file
 input_path = r"your_csv_path_here.csv"
 #Path to the output CSV file
 output_path = r"your_csv_path_here.csv"
 
-'''
+```
+
 ## How Code Works
 
 ![System Work](https://raw.githubusercontent.com/SatyamDevv/DatasetTranslator/main/Images/diagram.png)
