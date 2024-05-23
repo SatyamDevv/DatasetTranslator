@@ -1,6 +1,6 @@
 # DatasetTranslator
 
-This project translates a dataset from English to Bhojpuri (or any other Language) using the deep_translator library and pandas. The input is a CSV file containing the dataset, and the output is a translated CSV file.
+This project translates a dataset from English (or any other Language) to Bhojpuri (or any other Language) using the deep_translator library and pandas. The input is a CSV file containing the dataset, and the output is a translated CSV file.
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ output_path = r"your_csv_path_here.csv"
 Change Language: According to Your Input and ouput language use the code given in list at last
 
 ```bash
-
+# change 'en' to your dataset language code and 'bho' to output dataset language code
 def translate_text(text, source_lang='en', target_lang='bho'):
     if pd.notnull(text):
         return GoogleTranslator(source=source_lang, target=target_lang).translate(text)
