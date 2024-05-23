@@ -54,7 +54,7 @@ def translate_text(text, source_lang='en', target_lang='bho'):
 
 ## How Code Works
 
-![System Work](https://raw.githubusercontent.com/SatyamDevv/DatasetTranslator/main/Images/diagram.png)
+![System Work](https://raw.githubusercontent.com/SatyamDevv/DatasetTranslator/main/Images/CSV%20Translation%20Process.png)
 
 ## Issues and Considerations
 
