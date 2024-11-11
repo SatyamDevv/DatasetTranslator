@@ -30,25 +30,15 @@ pip install tqdm
 
 ## Usage
 
-Setup Paths: Specify the input and output CSV file paths in the script.
+Setup Paths: Specify the input and output CSV file paths in the script. 
+Change Language: According to Your Input and ouput language use the code given in list at last.
 
 ```bash
 
-#Path to the input CSV file
-input_path = r"your_csv_path_here.csv"
-#Path to the output CSV file
-output_path = r"your_csv_path_here.csv"
-
-```
-
-Change Language: According to Your Input and ouput language use the code given in list at last
-
-```bash
-# change 'en' to your dataset language code and 'bho' to output dataset language code
-def translate_text(text, source_lang='en', target_lang='bho'):
-    if pd.notnull(text):
-        return GoogleTranslator(source=source_lang, target=target_lang).translate(text)
-    return 'NaN'
+input_path = r"Alpaca English/alpaca_data_cleaned_13.csv"
+output_path = r"Alpaca Hindi/alpaca_data_cleaned_Hindi_13.csv"
+source_lang = 'en'  # Source language code (e.g., 'en' for English)
+target_lang = 'hi'  # Target language code (e.g., 'hi' for Hindi)
 
 ```
 
